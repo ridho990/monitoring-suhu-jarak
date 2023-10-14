@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 8%;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(165, 177, 203, 0.4) 58.39%, rgba(255, 97, 138, 0.2) 100%);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a,
+input,
+button,
+span {
+  font-family: "Poppins", sans-serif;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.padding-x-content {
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.text-4xl {
+  font-size: 3rem;
+  line-height: 2.5rem;
+}
+
+.text-3xl {
+  font-size: 2.25rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+}
+
+.text-navy {
+  color: #023047;
+}
+
+.text-yellow {
+  color: #ffb703;
+}
+
+.bg-blue {
+  background-color: #6b9ab8;
+}
+
+.bg-purple {
+  background-color: #a5b1cb;
+}
+
+.bg-pink {
+  background-color: #ff618a;
+}
+
+.title-grafik {
+  display: block !important;
+  padding-bottom: 3rem !important;
+  color: red !important;
+}
+
+.informasi-suhu-jarak {
+  background-color: #fff;
+  align-items: center;
+  padding: 3rem;
+  box-shadow: 0px 0px 44px -5px rgba(0, 0, 0, 0.1);
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+.informasi-suhu-jarak .wrapper-jam-digital > p {
+  font-weight: 600;
+}
+.informasi-suhu-jarak .wrapper-jam-digital #jam-digital {
+  margin: 1rem 0;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.informasi-suhu-jarak .wrapper-jam-digital #jam-digital > div {
+  flex-basis: 3rem;
+  padding: 0.4rem 0;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+.informasi-suhu-jarak .wrapper-jam-digital #jam-digital > div p {
+  font-weight: 500;
+  color: #fff;
+}
+
+.wrapper-container-grafik {
+  width: 100%;
+}
+
+.container-grafik {
+  padding-right: 1.5rem;
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 680px) {
+  .informasi-suhu-jarak {
+    padding: 1rem;
+  }
+  .container-grafik {
+    padding-right: 0.5rem;
+  }
+}/*# sourceMappingURL=style.css.map */
